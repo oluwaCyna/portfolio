@@ -8,7 +8,6 @@ box-shadow: rgba(226, 213, 221, 0.4) -5px 5px, rgba(224, 217, 222, 0.3) -10px 10
 	font-family: 'Poppins'
 }
 /* Shina CSS*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 .content {
 	position: relative;
@@ -18,7 +17,6 @@ box-shadow: rgba(226, 213, 221, 0.4) -5px 5px, rgba(224, 217, 222, 0.3) -10px 10
 	color: #fff;
 	font-size: 8em;
 	position: absolute;
-	/* transform: rotate(90deg); */
 }
 
 .content h1:nth-child(1) {
@@ -71,24 +69,24 @@ box-shadow: rgba(226, 213, 221, 0.4) -5px 5px, rgba(224, 217, 222, 0.3) -10px 10
 .part-1 {
 	position: absolute;
 	top: 10%;
-	left: 20%;
+	left: 10%;
 	font-size: 60px;
 }
 
 .part-3 {
 	position: absolute;
 	top: 25%;
-	left: 20%;
+	left: 10%;
 }
 .part-4 {
 	position: absolute;
-	top: 65%;
-	left: 20%;
+	top: 55%;
+	left: 10%;
 }
 .part-5 {
 	position: absolute;
-	top: 80%;
-	left: 20%;
+	top: 70%;
+	left: 10%;
 }
 
 /* I am a developer*/
@@ -122,3 +120,56 @@ box-shadow: rgba(226, 213, 221, 0.4) -5px 5px, rgba(224, 217, 222, 0.3) -10px 10
 .skills {
 	padding: 0 20%;
 }
+
+/*Responsiveness*/
+
+@media (max-width: 1199px) {
+    .animate-charcter {
+		font-size: 30px;
+	}
+	.content h1 {
+		font-size: 7em;
+	}
+	.project-card {
+		position: relative;
+		height: 30vh;
+		width: 80%;
+  }
+}
+
+  @media (max-width: 991px) {
+    .animate-charcter {
+		font-size: 25px;
+	}
+	.content h1 {
+		font-size: 5em;
+	}
+	.part-1 {
+		font-size: 3em;
+	}
+  }
+
+  @media (max-width: 767px) {
+    .animate-charcter {
+		font-size: 20px;
+	}
+	.content h1 {
+		font-size: 3.5em;
+	}
+	.part-1 {
+		font-size: 2em;
+	}
+  }
+
+  @media (max-width: 540px) {
+    .width {
+		width: 100% !important;
+	}
+	.height {
+		height: 35vh !important;
+	}
+	.position {
+		height: 50vh !important;
+	}
+  }
+  

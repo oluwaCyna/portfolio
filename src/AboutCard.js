@@ -1,7 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./AboutCard.css"
 import { faAnchor } from '@fortawesome/free-solid-svg-icons';
 import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
@@ -11,7 +10,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
   <>
     <Carousel controls={false}>
       <Carousel.Item>
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center height'>
         <div className="card card-1">
           <div className="card__icon">
             <FontAwesomeIcon icon={faAnchor} />
@@ -25,7 +24,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
         </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center height'>
         <div className="card card-4">
           <div className="card__icon">
             <FontAwesomeIcon icon={faAnchor} />
@@ -39,7 +38,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
         </div>
         </Carousel.Item>
         <Carousel.Item>
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center height'>
         <div className="card card-4">
           <div className="card__icon">
             <FontAwesomeIcon icon={faAnchor} />
@@ -53,7 +52,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
         </div>
         </Carousel.Item>
       <Carousel.Item>
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center height'>
         <div className="card card-2">
           <div className="card__icon">
             <FontAwesomeIcon icon={faAnchor} />
@@ -67,7 +66,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
         </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center height'>
         <div className="card card-3">
           <div className="card__icon">
             <FontAwesomeIcon icon={faAnchor} />
@@ -81,7 +80,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
         </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center height'>
         <div className="card card-4">
           <div className="card__icon">
             <FontAwesomeIcon icon={faAnchor} />

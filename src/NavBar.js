@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
 
-    let passiveClassName = "nav-link px-5";
-      let activeClassName = "nav-link px-5 active";
+    let passiveClassName = "nav-link px-md-5 px-sm-3";
+      let activeClassName = "nav-link px-md-5 px-sm-3 active";
     
       return (
           <nav className="nav nav-pills d-flex justify-content-center py-3">

@@ -3,18 +3,17 @@ import React from 'react'
 const IDCard = () => {
   return (
     <div className="row py-5">
-      <div className="col-6">
+      <div className="col-sm-6 pb-2 width">
         <img
-          className="d-block w-100"
+          className="d-block w-100 h-100"
           src="https://i.ibb.co/kxTjRJX/ID-Card.png"
           alt="ID Card"
         />
       </div>
-      <div className="col-6 d-flex align-items-end">
+      <div className="col-sm-6 d-flex align-items-center width">
         <div className="project-card bg-black">
           <div className="face1">
             <div className="content">
-              <span className="stars"></span>
               <p className="id-card">
                 A web application where users can submit details and generate printable ID Card with a default Avatar image.
               </p>
@@ -35,9 +34,9 @@ const IDCard = () => {
         </button>
       </div>
 
-      <div className="row w-25 gap-4 mx-auto ">
-          <button className="btn btn-primary px-4"><a className="button-link" href="https://oluwacyna-id-generator.herokuapp.com/" target="_blank">View Live</a></button>
-          <button className="btn btn-primary px-4"><a className="button-link" href="https://github.com/oluwaCyna/id-card-generator" target="_blank">GitHub Repo</a></button>
+      <div className="row gap-4 mx-auto btn-width">
+          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://oluwacyna-id-generator.herokuapp.com/" target="_blank">View Live</a></button>
+          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://github.com/oluwaCyna/id-card-generator" target="_blank">GitHub Repo</a></button>
       </div>
     </div>
   )

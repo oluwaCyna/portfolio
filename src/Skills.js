@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className="container bg-dark bordered my-5">
+    <div className="container bg-dark bordered mt-0 mt-sm-5">
       <div className="row g-2 p-5">
       <button type="col button" class="btn btn-primary rounded px-5 disabled">HTML</button>
       <button type="col button" class="btn btn-primary rounded px-5 disabled">CSS</button>
