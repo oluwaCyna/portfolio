@@ -4,10 +4,12 @@ import "./PortfolioCard.css";
 import BettingApp from "./Projects/BettingApp";
 import Calculator from "./Projects/Calculator";
 import Dictionary from "./Projects/Dictionary";
+import Ecommerce from "./Projects/Ecommerce";
 import FormDesign from "./Projects/FormDesign";
 import FormValidation from "./Projects/FormValidation";
 import IDCard from "./Projects/IDCard";
 import MultiplicationTable from "./Projects/MultiplicationTable";
+import PPortfolio from "./Projects/PPortfolio";
 import ProfilePage from "./Projects/ProfilePage";
 import RealEstateAgent from "./Projects/RealEstateAgent";
 import WeatherApp from "./Projects/WeatherApp";
@@ -16,6 +18,14 @@ const PortfolioCard = () => {
   return (
     <>
       <Carousel controls={false}>
+      <Carousel.Item>
+          <PPortfolio />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <Ecommerce />
+        </Carousel.Item>
+
         <Carousel.Item>
           <BettingApp />
         </Carousel.Item>
