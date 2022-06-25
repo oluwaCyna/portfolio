@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Portfolio = () => {
+const PPortfolio = () => {
   return (
     <div className="row py-5">
       <div className="col-sm-6 pb-2 width">
         <img
           className="d-block w-100 h-100"
-          src="https://i.ibb.co/3zNq5QB/Weather-App.center"
+          src="https://ibb.co/ZTxfzBs"
           alt="Portfolio"
         />
       </div>
@@ -35,11 +35,11 @@ const Portfolio = () => {
       </div>
 
       <div className="row gap-4 mx-auto btn-width">
-          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://oluwacyna-weather-app.netlify.app/" target="_blank">View Live</a></button>
-          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://github.com/oluwaCyna/Weather-App" target="_blank">GitHub Repo</a></button>
+          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://oluwacyna-portfolio.netlify.app/" target="_blank">View Live</a></button>
+          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://github.com/oluwaCyna/portfolio" target="_blank">GitHub Repo</a></button>
       </div>
     </div>
   )
 }
 
-export default Portfolio
+export default PPortfolio
