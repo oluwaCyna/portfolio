@@ -6,7 +6,7 @@ const PPortfolio = () => {
       <div className="col-sm-6 pb-2 width">
         <img
           className="d-block w-100 h-100"
-          src="https://ibb.co/ZTxfzBs"
+          src="i.ibb.co/4NpFR8y/Portfolio.png"
           alt="Portfolio"
         />
       </div>

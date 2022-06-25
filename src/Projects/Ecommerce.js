@@ -6,7 +6,7 @@ const Ecommerce = () => {
       <div className="col-sm-6 pb-2 width">
         <img
           className="d-block w-100 h-100"
-          src="https://ibb.co/X7kJfV3"
+          src="https://i.ibb.co/48gNwJY/Ecommerce.png"
           alt="E commerce"
         />
       </div>
