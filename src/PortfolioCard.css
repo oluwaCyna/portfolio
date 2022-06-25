@@ -25,6 +25,17 @@ h2 {
   margin: 0;
   padding: 0;
 }
+.portfolio {
+  background-color: #555ee4;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ecommerce {
+  background-color: #3db44d;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .betting-app {
   background-color: #fffc00;
