@@ -35,8 +35,8 @@ const Calculator = () => {
       </div>
 
       <div className="row gap-4 mx-auto btn-width">
-          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://oluwacyna-calculator.netlify.app/" target="_blank">View Live</a></button>
-          <button className="btn btn-primary px-4 fsize"><a className="button-link" href="https://github.com/oluwaCyna/Calculator-" target="_blank">GitHub Repo</a></button>
+          <a className="btn btn-primary px-4 fsize button-link" href="https://oluwacyna-calculator.netlify.app/" target="_blank">View Live</a>
+          <a className="btn btn-primary px-4 fsize button-link" href="https://github.com/oluwaCyna/Calculator-" target="_blank">GitHub Repo</a>
       </div>
     </div>
   )

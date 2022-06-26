@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import AboutCard from "./AboutCard";
@@ -17,12 +18,12 @@ const Home = () => {
           <h2 className="part-4 animate-charcter">I am a FULL STACK DEVELOPER</h2>
           <div className="part-5">
             <div className="d-flex gap-4">
-            <button className="btn btn-primary px-4">
+            <a href="../CV" className="btn btn-primary px-4">
                 CV
-              </button>
-              <button className="btn btn-primary">
+              </a>
+              <a href="../portfolio" className="btn btn-primary">
                 Portfolio
-              </button>
+              </a>
             </div>
             <div className="d-flex gap-3 py-4 text-white">
             <a href="https://www.linkedin.com/in/shinaa"><FontAwesomeIcon icon={faLinkedinIn} /></a>
