@@ -18,10 +18,10 @@ const Home = () => {
           <h2 className="part-4 animate-charcter">I am a FULL STACK DEVELOPER</h2>
           <div className="part-5">
             <div className="d-flex gap-4">
-            <a href="../CV" className="btn btn-primary px-4">
+            <a href="./CV" className="btn btn-primary px-4">
                 CV
               </a>
-              <a href="../portfolio" className="btn btn-primary">
+              <a href="./portfolio" className="btn btn-primary">
                 Portfolio
               </a>
             </div>
