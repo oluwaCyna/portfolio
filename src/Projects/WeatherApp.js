@@ -6,7 +6,7 @@ const WeatherApp = () => {
       <div className="col-sm-6 pb-2 width">
         <img
           className="d-block w-100 h-100"
-          src="https://i.ibb.co/3zNq5QB/Weather-App.center"
+          src="https://i.ibb.co/3zNq5QB/Weather-App.png"
           alt="Weather App"
         />
       </div>
